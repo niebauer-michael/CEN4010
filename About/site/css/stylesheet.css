@@ -1,0 +1,104 @@
+body{
+    background-color:black;
+  }
+  
+  div.row1{
+    margin-top: 70px;
+    padding: 15px;
+    background-color:black;
+  }
+  
+  div{
+    padding: 15px;
+    background-color:black;
+  }
+  
+  p{
+    font-family: 'Roboto', sans-serif;
+    color:lightgrey;
+    font-size: large;
+  }
+  
+  p.annotation{
+    font-family: 'Roboto', sans-serif;
+    color:lightgrey;
+    font-size: small;
+  }
+  
+  li{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    color:lightgrey;
+  }
+  
+  nav{
+    background-color:black;
+  }
+  a:link{
+    text-decoration: none;
+    color:lightgrey;
+  }
+  
+  a:visited{
+    text-decoration: none;
+    color:lightgrey;
+  }
+  
+  a:hover{
+    text-decoration: none;
+    color:lightgrey;
+    font-weight: bold;
+  }
+  
+  a:active{
+    text-decoration: none;
+    color:lightgrey;
+  }
+  
+  h5{
+    color:lightgrey;
+  }
+  
+  a img  
+  {  
+  border: none;  
+  }  
+
+  navbar-custom {
+    background-color: black;
+  }
+  
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(211,211,211, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: lightgrey;
+  } 
+
+ 
+.modal-content{
+	background-color:#000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	border: 0px solid #000000;
+}
+
+.modal-body{
+	background-color:#000000;;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #000000;;
+	border: 0px solid #000000;
+}
+
+.modal-header{
+	border: 0px solid #000000;
+}
+
+.modal-footer{
+	border: 0px solid #000000;
+
+}
+
