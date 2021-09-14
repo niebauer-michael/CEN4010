@@ -1,0 +1,173 @@
+
+
+body{
+  background-color:#000000;
+  padding-top: 50px;
+  }
+  
+div.title{
+  font-family: 'VT323', monospace;
+  background-color:#000000;
+  border-width:2px;  
+  border-style:double;
+  border-color: #A9A9A9;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 10px 5px  darkgrey;
+}
+
+div.content{
+  font-family: 'VT323', monospace;
+  font-weight: 300;
+  background-color:#000000;
+  border-width:2px;  
+  border-style:solid;
+  border-color: #A9A9A9;
+  padding: 5px 5px 5px 5px;
+  box-shadow: 10px 5px  darkgrey;
+
+
+}
+
+div.command_line{
+  background-color:#000000;
+  border-style:none;
+
+}
+
+div.main_background{
+  background-color:#000000;
+  border-style:none;
+
+}
+
+p.main {
+  font-family: 'VT323', monospace;
+  text-align: justify;
+  font-size: large;
+  color: #A9A9A9;
+}
+
+p.footer {
+  font-family: 'VT323', monospace;
+  font-size: large;
+  color: #A9A9A9;
+}
+
+
+h3{
+  font-family: 'VT323', monospace;
+  font-weight: 400;
+  text-align: left;
+  color: #A9A9A9;
+}
+
+h5{
+  font-family: 'VT323', monospace;
+  font-weight: 100;
+  text-align: left;
+  color: #A9A9A9;
+  font-size: 12;
+}
+
+h6{
+  font-family: 'VT323', monospace;
+  font-weight: 100;
+  text-align: left;
+  color: #A9A9A9;
+  font-size: 8;
+}
+
+
+p.command_line {
+  font-family: 'VT323', monospace;
+  font-weight: 100;
+  text-align: justify;
+  color: #A9A9A9;
+  font-size: 4;
+}
+
+nav.color{
+  padding-top: 75px;
+  background-color:#000000;
+
+}
+
+/* unvisited link */
+a:link {
+  text-decoration:none;
+  color: #A9A9A9;
+}
+
+/* visited link */
+a:visited {
+  text-decoration:none;
+  color: #A9A9A9;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration:none;
+  color: #A9A9A9;
+}
+
+/* selected link */
+a:active {
+  text-decoration:none;
+  color: #A9A9A9;
+}
+
+pre.command_line{
+  text-decoration:none;
+  color: #A9A9A9;
+  font-size: xx-small;
+}
+
+
+.splash{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  z-index: 200;
+  color: #A9A9A9;
+  text-align: center;
+}
+
+.splash.display-none{
+  opacity: 0;
+  z-index: -10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: black;
+  z-index: 200;
+  color: #A9A9A9;
+  text-align: center;
+}
+
+
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+li{
+  font-family: 'VT323', monospace;
+  color: #A9A9A9;
+  font-size: large;
+  text-align: left;
+  text-decoration: none;
+  list-style-type: none;
+}
