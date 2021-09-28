@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+
+{% block content %}
+
+<div class="container-fluid">
+  <div class="container-sm posts shadow p-3 mb-5 bg-white rounded">
+  <div class="container title"><h3>Register</h3></div>
+  <div class="container content">
+
+ 
+
+<form>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">First Name</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+      </div>
+      
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Last Name</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Last Name">
+      </div>
+      
+
+      <div class="form-group col-md-6">
+        <label for="inputEmail4">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+      </div>
+      
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Password">
+      </div>
+
+      <div class="form-group col-md-6">
+        <label for="inputPassword4">Confirm Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Confirm Password">
+      </div>
+
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </form>
+
+<br>
+
+  
+    <div class="container footer"><p class="footer">.</p></div>
+  </div>
+ 
+
+
+
+{% endblock %}
